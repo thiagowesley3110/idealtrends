@@ -115,6 +115,18 @@ body {
   text-align: center;
   padding: 2rem;
 }
+.container_footer h3{
+    color:var(--color-descricao);
+    font-family: var(--font-family);
+    font-size: 2rem;
+    cursor: pointer;
+}
+.container_footer p{
+    color:var(--color-descricao);
+    font-family: var(--font-family);
+    font-size: 1rem;
+    cursor: pointer;
+}
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   /*navbar*/
@@ -145,6 +157,9 @@ body {
   }
   .container_produtos {
     width: 250px;
+  }
+  .redesSociais{
+    flex-direction: column;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -190,5 +205,8 @@ body {
     padding: 1rem;
     margin: 0;
     padding: 0.5rem;
+  }
+  .container_footer{
+    flex-direction: column;
   }
 }
