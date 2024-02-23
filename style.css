@@ -54,10 +54,10 @@ body {
   padding-top: 11rem;
 }
 
-.swiper {
-  width: 1200px;
-  height: 400px;
-}
+
+
+
+
 
 /*produtos*/
 .produtos {
@@ -68,6 +68,7 @@ body {
   justify-content: center;
   gap: 3rem;
   padding-bottom: 3rem;
+  cursor: pointer;
 }
 
 .container_produtos img {
@@ -139,10 +140,9 @@ body {
     width: 800px;
     align-items: center;
   }
-  .swiper {
-    width: 800px;
-    height: 200px;
-  }
+
+
+
 
   /*produtos*/
   .produtos {
@@ -177,19 +177,9 @@ body {
     gap: 2rem;
   }
   /*banner*/
-  .swiper-slide {
-    padding-top: 5.5rem;
-  }
 
-  .swiper-slide img {
-    width: 400px;
 
-    align-items: center;
-  }
-  .swiper {
-    width: 400px;
-    height: 300px;
-  }
+  
 
   /*produtos*/
   .produtos {
