@@ -173,6 +173,9 @@ body {
   .banner {
     padding-top: 8rem;
   }
+  .swiper-pagination{
+    display: none;
+  }
   /*produtos*/
   .produtos {
     width: 100vw;
