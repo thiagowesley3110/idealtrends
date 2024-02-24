@@ -49,9 +49,11 @@ body {
 }
 
 /*banner*/
-
-.banner {
-  padding-top: 11rem;
+.banner{
+    padding-top: 9rem;
+}
+.swiper-slide img{
+    width: 100%;
 }
 
 
@@ -136,12 +138,9 @@ body {
     overflow: hidden;
   }
   /*banner*/
-  .swiper-slide img {
-    width: 800px;
-    align-items: center;
+  .banner{
+    padding-top: 7rem;
   }
-
-
 
 
   /*produtos*/
@@ -178,8 +177,10 @@ body {
   }
   /*banner*/
 
+  .banner{
+    padding-top: 8rem;
+  }
 
-  
 
   /*produtos*/
   .produtos {
