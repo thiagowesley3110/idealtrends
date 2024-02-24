@@ -1,0 +1,124 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #6096b4;
+  }
+  
+  :root {
+    --color-font: #191717;
+    --color-background: #fff;
+    --font-family: "Poppins", sans-serif;
+    --color-descricao: #7d7c7c;
+  }
+
+body{
+    background-color: #6096b4;
+}
+
+
+/*navbar*/
+.header img {
+    width: 130px;
+    cursor: pointer;
+  }
+  .header {
+    width: 100%;
+    background-color: var(--color-background);
+    position: fixed;
+    z-index: 1000;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    box-shadow: 0px 1px 5px #fff;
+  }
+  .lista-nav a {
+    color: #6096b4;
+  }
+  .lista-nav :hover {
+    color: #191717;
+  }
+  .lista-nav {
+    font-family: var(--font-family);
+    display: flex;
+    gap: 3rem;
+    padding-right: 3rem;
+  }
+  
+
+.card__contato-empresa{
+    margin: 2rem auto;
+    width: 800px;
+    height: 300px;
+    background-color:var(--color-background);
+    border-radius: 15px 0 15px 0;
+    box-shadow: 0px 1px 8px #fff;
+    padding: 1rem;
+    text-align: center;
+    padding-top: 2rem;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 8rem;
+}
+.card__contato h3{
+    padding:13rem 0 3rem 0;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: var(--color-font);
+}
+
+.logo_contato img{
+    width: 110px;
+    padding-bottom: 2rem;
+
+}
+.logo_contato{
+    cursor: pointer;
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /*navbar*/
+    .header {
+      width: 100%;
+      overflow: hidden;
+    }
+    .card__contato{
+        width: 100vw;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 767px) {
+    /*navbar*/
+    .lista-nav {
+      font-size: 0.8rem;
+      gap: 1rem;
+    }
+    .header img {
+      width: 100px;
+    }
+  
+    .header {
+      width: 100%;
+      gap: 2rem;
+    }
+    .card__contato{
+        width: 100vw;
+    }
+   
+    
+}
+

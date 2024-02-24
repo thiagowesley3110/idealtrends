@@ -19,11 +19,11 @@ body {
 }
 
 /*navbar*/
-.navbar img {
+.header img {
   width: 130px;
   cursor: pointer;
 }
-.navbar {
+.header {
   width: 100%;
   background-color: var(--color-background);
   position: fixed;
@@ -139,7 +139,7 @@ body {
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   /*navbar*/
-  .navbar {
+  .header {
     width: 100%;
     overflow: hidden;
   }
@@ -171,11 +171,11 @@ body {
     font-size: 0.8rem;
     gap: 1rem;
   }
-  .navbar img {
+  .header img {
     width: 100px;
   }
 
-  .navbar {
+  .header {
     width: 100%;
     gap: 2rem;
   }
