@@ -32,3 +32,32 @@
     gap: 3rem;
     padding-right: 3rem;
   }
+  .menu__hamburquer_img{
+    
+    width: 2em !important; 
+    display: none !important;
+    @media (max-width: 768px){
+        display: block !important;
+        padding-right: 3rem;
+    }
+  }
+  .menu-list {
+    display: flex;
+    align-items: center;
+    gap: 2.8rem;
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+  .menu-list-active {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    background: var(--color-font);
+    left: 0;
+    top: 100px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 0 35px 16px;
+    height: 100vw;
+  }

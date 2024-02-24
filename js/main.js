@@ -15,3 +15,12 @@
         
     },    
 });
+
+const menuHamburger = document.querySelector('.menu__hamburquer_img')
+const menu = document.querySelector('.menu-list')
+
+
+menuHamburger.addEventListener('click', (e) => {
+    menu.classList.toggle('menu-list-active')
+    menuHamburger.classList.toggle('fa-x')
+});
