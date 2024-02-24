@@ -1,0 +1,28 @@
+.header img {
+    width: 130px;
+    cursor: pointer;
+  }
+  .header {
+    width: 100%;
+    background-color: var(--color-background);
+    position: fixed;
+    z-index: 1000;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    box-shadow: 0px 1px 5px #fff;
+  }
+  .lista-nav a {
+    color: #6096b4;
+  }
+  .lista-nav :hover {
+    color: #191717;
+  }
+  .lista-nav {
+    font-family: var(--font-family);
+    display: flex;
+    gap: 3rem;
+    padding-right: 3rem;
+  }
