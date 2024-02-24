@@ -14,20 +14,16 @@
 }
 
 /*produtos*/
-.produtos {
+
+.produto__geral{
   display: flex;
   flex-wrap: wrap;
-  
-  
   gap: 1rem;
-  margin: 0 auto;
- 
- 
-  
+  justify-content: space-around;
+  padding: 2rem 0;
 }
-
 .card_produtos img {
-  width: 250px;
+  width: 150px;
 }
 .card_produtos {
   font-family: var(--font-family);
