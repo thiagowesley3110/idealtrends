@@ -86,6 +86,17 @@ body {
 .descricao {
   color: var(--color-descricao);
 }
+.preco{
+    background-color:#6096b4;
+    color: var(--color-background);
+    border-radius: 5px;
+    margin: 1rem 0;
+}
+.preco :hover{
+    transform: scale(1.08);
+    transition: all 0.3s;
+    background-color: #abcde0;
+}
 /*footer*/
 
 .container_footer {
