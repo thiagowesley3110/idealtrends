@@ -18,9 +18,9 @@
 
 const menuHamburger = document.querySelector('.menu__hamburquer_img')
 const menu = document.querySelector('.menu-list')
+const menux= document.querySelector('.imagem__x')
 
 
 menuHamburger.addEventListener('click', (e) => {
     menu.classList.toggle('menu-list-active')
-    menuHamburger.classList.toggle('fa-x')
 });
