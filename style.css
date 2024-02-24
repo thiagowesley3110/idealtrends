@@ -49,17 +49,12 @@ body {
 }
 
 /*banner*/
-.banner{
-    padding-top: 9rem;
+.banner {
+  padding-top: 9rem;
 }
-.swiper-slide img{
-    width: 100%;
+.swiper-slide img {
+  width: 100%;
 }
-
-
-
-
-
 
 /*produtos*/
 .produtos {
@@ -73,10 +68,10 @@ body {
   cursor: pointer;
 }
 
-.container_produtos img {
+.card_produtos img {
   width: 250px;
 }
-.container_produtos {
+.card_produtos {
   font-family: var(--font-family);
   background-color: #fff;
   width: 350px;
@@ -118,17 +113,17 @@ body {
   text-align: center;
   padding: 2rem;
 }
-.container_footer h3{
-    color:var(--color-descricao);
-    font-family: var(--font-family);
-    font-size: 2rem;
-    cursor: pointer;
+.container_footer h3 {
+  color: var(--color-descricao);
+  font-family: var(--font-family);
+  font-size: 2rem;
+  cursor: pointer;
 }
-.container_footer p{
-    color:var(--color-descricao);
-    font-family: var(--font-family);
-    font-size: 1rem;
-    cursor: pointer;
+.container_footer p {
+  color: var(--color-descricao);
+  font-family: var(--font-family);
+  font-size: 1rem;
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -138,11 +133,9 @@ body {
     overflow: hidden;
   }
   /*banner*/
-  .banner{
+  .banner {
     padding-top: 7rem;
   }
-
-
   /*produtos*/
   .produtos {
     width: 100%;
@@ -151,13 +144,13 @@ body {
     text-align: center;
     align-items: center;
   }
-  .container_produtos img {
+  .card_produtos img {
     width: 200px;
   }
-  .container_produtos {
+  .card_produtos {
     width: 250px;
   }
-  .redesSociais{
+  .redesSociais {
     flex-direction: column;
   }
 }
@@ -177,27 +170,25 @@ body {
   }
   /*banner*/
 
-  .banner{
+  .banner {
     padding-top: 8rem;
   }
-
-
   /*produtos*/
   .produtos {
     width: 100vw;
     gap: 1rem;
     column-gap: 2rem;
   }
-  .container_produtos img {
+  .card_produtos img {
     width: 200px;
   }
-  .container_produtos {
+  .card_produtos {
     width: 300px;
     padding: 1rem;
     margin: 0;
     padding: 0.5rem;
   }
-  .container_footer{
+  .container_footer {
     flex-direction: column;
   }
 }
