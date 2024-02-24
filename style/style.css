@@ -15,14 +15,15 @@
 
 /*produtos*/
 .produtos {
-  padding-top: 3rem;
-  height: auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 3rem;
-  padding-bottom: 3rem;
-  cursor: pointer;
+  
+  
+  gap: 1rem;
+  margin: 0 auto;
+ 
+ 
+  
 }
 
 .card_produtos img {
@@ -31,7 +32,7 @@
 .card_produtos {
   font-family: var(--font-family);
   background-color: #fff;
-  width: 350px;
+  width: 250px;
   padding: 1rem;
   text-align: center;
   border-radius: 15px 0 15px 0;
