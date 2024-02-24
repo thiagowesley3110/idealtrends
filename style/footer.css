@@ -1,38 +1,42 @@
+@import "./header.css";
+.footer__card {
+  width: 100vh;
+  background-color: var(--color-background);
+}
 .container_footer {
-    background-color: var(--color-background);
-    box-shadow: 0px 1px 8px var(--color-background);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    bottom: 0;
-  }
-  .redesSociais {
-    display: flex;
-    padding: 1rem 2rem;
-    gap: 2rem;
-    cursor: pointer;
-  }
-  .redesSociais :hover {
-    transform: scale(1.1);
-    transition: all;
-  }
-  .redesSociais img {
-    width: 50px;
-  }
-  .todos_direitos_autorais {
-    background-color: var(--color-background);
-    text-align: center;
-    padding: 2rem;
-  }
-  .container_footer h3 {
-    color: var(--color-descricao);
-    font-family: var(--font-family);
-    font-size: 2rem;
-    cursor: pointer;
-  }
-  .container_footer p {
-    color: var(--color-descricao);
-    font-family: var(--font-family);
-    font-size: 1rem;
-    cursor: pointer;
-  }
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 3rem;
+  bottom: 0;
+}
+.redesSociais {
+  display: flex;
+  padding: 1rem 2rem;
+  gap: 2rem;
+  cursor: pointer;
+}
+.redesSociais :hover {
+  transform: scale(1.1);
+  transition: all;
+}
+.redesSociais img {
+  width: 50px;
+}
+.todos_direitos_autorais {
+  background-color: var(--color-background);
+  text-align: center;
+  padding: 2rem;
+}
+.container_footer h3 {
+  color: var(--color-descricao);
+  font-family: var(--font-family);
+  font-size: 2rem;
+  cursor: pointer;
+}
+.container_footer p {
+  color: var(--color-descricao);
+  font-family: var(--font-family);
+  font-size: 1rem;
+  cursor: pointer;
+}
